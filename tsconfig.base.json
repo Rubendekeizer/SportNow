@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sport-now/backend/dto": ["libs/backend/dto/src/index.ts"],
+      "@sport-now/backend/features": ["libs/backend/features/src/index.ts"],
+      "@sport-now/shared/api": ["libs/shared/api/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
