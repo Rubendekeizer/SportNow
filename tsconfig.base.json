@@ -17,7 +17,10 @@
     "paths": {
       "@sport-now/backend/dto": ["libs/backend/dto/src/index.ts"],
       "@sport-now/backend/features": ["libs/backend/features/src/index.ts"],
-      "@sport-now/shared/api": ["libs/shared/api/src/index.ts"]
+      "@sport-now/common": ["libs/sport-now/common/src/index.ts"],
+      "@sport-now/features": ["libs/sport-now/features/src/index.ts"],
+      "@sport-now/shared/api": ["libs/shared/api/src/index.ts"],
+      "@sport-now/ui": ["libs/sport-now/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
